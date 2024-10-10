@@ -291,15 +291,7 @@ export default function Home() {
                     name: "Logo",
                   },
                   {
-                    logo: "/clients/FDSS.jpg",
-                    name: "Logo",
-                  },
-                  {
                     logo: "/clients/PFST.png",
-                    name: "Logo",
-                  },
-                  {
-                    logo: "/clients/simplex.png",
                     name: "Logo",
                   },
                 ]}

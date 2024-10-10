@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FB / 24",
+  title: "FB / 24 🧯",
   description: "Developed by Hasnain Khan.",
   openGraph: {
     images: [

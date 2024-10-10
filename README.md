@@ -1,3 +1,6 @@
+# FB / 24 🧯 [🌐WEBSITE]
+![Fire Buster](https://hasnainkhagan.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fg2tqi0p3%2Fproduction%2F15026e13b496368988a810116645e87eeaa2b6dd-1328x1008.png&w=1920&q=75)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

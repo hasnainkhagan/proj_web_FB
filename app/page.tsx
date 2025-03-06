@@ -227,7 +227,7 @@ export default function Home() {
           <div className="md:flex items-center justify-between gap-y-4 my-10 gap-x-28 mx-auto">
             <div className="md:w-2/5">
               <h1 className="text-2xl font-medium text-gray-600 w-4/5">
-                Trusted by Fast-Moving Brands Worldwide
+                Trusted by Fast Moving Brands Worldwide
               </h1>
 
               <div className="flex my-6 gap-x-5 w-full">

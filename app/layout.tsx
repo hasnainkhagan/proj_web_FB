@@ -6,15 +6,16 @@ import { Analytics } from "@vercel/analytics/react";
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FB / 24 🧯",
+  title:
+    "Fire Buster – Complete Fire Safety Solutions | Protection, Prevention & Maintenance",
   description: "Developed by Hasnain Khan.",
   openGraph: {
     images: [
       {
-        url: "https://www.google.com/maps/uv?viewerState=lb&pb=!1s0x11ae81c94242f451:0x2a6b0cac40414137!5sGlobstand+technologies&imagekey=!1e10!2sAF1QipPrTTNGxsOszQTXFD3b68e40o0V_LiVsTWwh-H6&cr=rp_35",
+        url: "https://cdn.discordapp.com/attachments/1333301340285304942/1347028854212005919/image.png?ex=67ca55e1&is=67c90461&hm=d47450c90ecc4ba3b5c944da8301e12b1c28c7d4787e29ee1fba61e828b04751&",
         width: 1200,
         height: 630,
-        alt: "Bird Logo",
+        alt: "Fire Buster Logo",
       },
     ],
   },

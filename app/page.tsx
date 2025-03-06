@@ -80,9 +80,9 @@ export default function Home() {
           <Image
             src={"/logo/fb.png"}
             alt="Logo"
-            width={1000}
-            height={1000}
-            className="w-[12em]"
+            width={10000}
+            height={10000}
+            className="w-[3.5em]"
           />
         </Link>
 
@@ -115,12 +115,6 @@ export default function Home() {
         </div>
 
         <div className="flex items-center gap-x-4">
-          <a href="tel:519400200" className="hidden lg:flex">
-            <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-              (+92)-321-2215335
-            </button>
-          </a>
-
           <Link
             href={"/meeting"}
             className="
@@ -188,6 +182,8 @@ export default function Home() {
               href={whatsappLink}
               className="
               bg-white
+              hover:bg-[#27D366]
+              hover:text-white
    py-3 
    px-10
    md:px-16
@@ -390,8 +386,8 @@ export default function Home() {
           />
           <div className="flex flex-col gap-y-5 md:w-1/2">
             <h1 className="text-lg md:text-2xl ">
-              &quot;We&apos;ve been working with Bird for over 2 years and
-              they&apos;ve been amazing to work with. They&apos;ve helped us
+              &quot;We&apos;ve been working with Fire Buster for over 5 years
+              and they&apos;ve been amazing to work with. They&apos;ve helped us
               grow our business and we couldn&apos;t be happier with the
               results. &quot;
             </h1>
@@ -421,12 +417,12 @@ export default function Home() {
 
       <footer className="bg-[#fafafa] py-10  px-6 md:px-0 md:mx-auto border-t">
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
-          <h1 className="text-3xl md:text-5xl font-medium ">
+          <h1 className="text-3xl md:text-3xl font-medium ">
             <Image
               src={"/logo/fb.png"}
               width={10000}
               height={10000}
-              className="w-[6em]"
+              className="w-[3.5em]"
               alt="image"
             />{" "}
           </h1>
@@ -437,7 +433,7 @@ export default function Home() {
         </div>
 
         <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2024 FB. All Rights Reserved.
+          © 2025 Fire Buster. All Rights Reserved.
           <Link href="/" className="text-[#ff4400]">
             Privacy Policy
           </Link>

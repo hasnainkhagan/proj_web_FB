@@ -72,17 +72,17 @@ export default function Home() {
     >
       <Element
         name="top"
-        className="overflow-hidden rounded-[6px] top-5 sticky md:mx-auto z-50 
+        className="overflow-hidden rounded-[1em] top-5 sticky md:mx-auto z-50 
    xl:w-4/5 2xl:w-[68%] bg-white flex items-center 
    justify-between py-6 px-4 md:px-8 mx-6"
       >
         <Link href={"/"}>
           <Image
-            src={"/logo/fb.png"}
+            src={"/logo/fb.jpeg"}
             alt="Logo"
             width={10000}
             height={10000}
-            className="w-[3.5em]"
+            className="w-[7em]"
           />
         </Link>
 
@@ -91,7 +91,7 @@ export default function Home() {
             <ScrollLink
               to="services"
               smooth={true}
-              className="hover:text-[#ff4400] duration-200"
+              className="hover:text-[#D32228] duration-200"
             >
               Services
             </ScrollLink>
@@ -99,7 +99,7 @@ export default function Home() {
             <ScrollLink
               to="process"
               smooth={true}
-              className="hover:text-[#ff4400] duration-200"
+              className="hover:text-[#D32228] duration-200"
             >
               Process
             </ScrollLink>
@@ -107,7 +107,7 @@ export default function Home() {
             <ScrollLink
               to="Guarantees"
               smooth={true}
-              className="hover:text-[#ff4400] duration-200"
+              className="hover:text-[#D32228] duration-200"
             >
               Guarantees
             </ScrollLink>
@@ -121,7 +121,7 @@ export default function Home() {
   py-3 
   px-6
   text-lg 
-  hover:bg-[#ff4400]
+  hover:bg-[#D32228]
   rounded-[6px]
   border-2
   border-black
@@ -165,7 +165,7 @@ export default function Home() {
             px-10
             md:px-16
       md:text-xl
-      hover:bg-[#ff4400] 
+      hover:bg-[#D32228] 
       rounded-[6px]
       border-2 
       border-black 
@@ -176,7 +176,12 @@ export default function Home() {
        duration-200 
        hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
             >
+<<<<<<< HEAD
 Schedule            </Link>
+=======
+              Schedule
+            </Link>
+>>>>>>> eef72ad (done)
             <Link
               href={whatsappLink}
               className="
@@ -197,27 +202,27 @@ Schedule            </Link>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
-            <BoxReveal boxColor={"#ff4400"} duration={0.5}>
+            <BoxReveal boxColor={"#D32228"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-[#ff4400]" />
+                <PiCheckBold className="text-xl text-[#D32228]" />
                 Protection
               </p>
             </BoxReveal>
-            <BoxReveal boxColor={"#ff4400"} duration={0.5}>
+            <BoxReveal boxColor={"#D32228"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-[#ff4400]" />
+                <PiCheckBold className="text-xl text-[#D32228]" />
                 Safety
               </p>
             </BoxReveal>
-            <BoxReveal boxColor={"#ff4400"} duration={0.5}>
+            <BoxReveal boxColor={"#D32228"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-[#ff4400]" />
+                <PiCheckBold className="text-xl text-[#D32228]" />
                 Maintenance
               </p>
             </BoxReveal>
-            <BoxReveal boxColor={"#ff4400"} duration={0.5}>
+            <BoxReveal boxColor={"#D32228"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
-                <PiCheckBold className="text-xl text-[#ff4400]" />
+                <PiCheckBold className="text-xl text-[#D32228]" />
                 Strategy
               </p>
             </BoxReveal>
@@ -231,7 +236,7 @@ Schedule            </Link>
 
               <div className="flex my-6 gap-x-5 w-full">
                 <div>
-                  <h1 className="text-[#ff4400] text-3xl md:text-5xl">
+                  <h1 className="text-[#D32228] text-3xl md:text-5xl">
                     <NumberTicker value={1000} /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Happy Clients
@@ -242,7 +247,7 @@ Schedule            </Link>
                 <div className="w-px bg-gray-300 self-stretch"></div>
 
                 <div className="flex-1 min-w-0">
-                  <h1 className="text-[#ff4400] text-3xl md:text-5xl whitespace-nowrap overflow-hidden">
+                  <h1 className="text-[#D32228] text-3xl md:text-5xl whitespace-nowrap overflow-hidden">
                     <NumberTicker value={100} /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Projects Completed
@@ -334,7 +339,7 @@ Schedule            </Link>
         <main className="md:px-0 mx-6 md:mx-auto">
           <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center">
             Our{" "}
-            <span className="text-[#ff4400] flex gap-x-1 items-center">
+            <span className="text-[#D32228] flex gap-x-1 items-center">
               {" "}
               <Image
                 src={"/icons/squiggle.svg"}
@@ -418,10 +423,10 @@ Schedule            </Link>
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
           <h1 className="text-3xl md:text-3xl font-medium ">
             <Image
-              src={"/logo/fb.png"}
+              src={"/logo/fb.jpeg"}
               width={10000}
               height={10000}
-              className="w-[3.5em]"
+              className="w-[6em]"
               alt="image"
             />{" "}
           </h1>
@@ -433,7 +438,7 @@ Schedule            </Link>
 
         <div className="flex md:justify-center gap-x-4 mt-10">
           © 2025 Fire Buster. All Rights Reserved.
-          <Link href="/" className="text-[#ff4400]">
+          <Link href="/" className="text-[#D32228]">
             Privacy Policy
           </Link>
         </div>

@@ -73,7 +73,7 @@ export function AnimatedBeamMultipleOutputDemo({
               alt="FB IMG"
               width={500}
               height={500}
-              className="w-[8em]"
+              className="w-[8em] grayscale"
             />
           </Circle>
         </div>

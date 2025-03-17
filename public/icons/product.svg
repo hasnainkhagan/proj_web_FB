@@ -9,15 +9,15 @@
                 <g id="编组" transform="translate(325.000000, 80.000000)">
                     <polygon fill="#FFFFFF" fill-opacity="0.01" fill-rule="nonzero" id="路径"
                         points="24 0 0 0 0 24 24 24"></polygon>
-                    <polygon id="路径" points="22 7 12 2 2 7 2 17 12 22 22 17" stroke="#ff4400" stroke-linejoin="round"
+                    <polygon id="路径" points="22 7 12 2 2 7 2 17 12 22 22 17" stroke="#D32228" stroke-linejoin="round"
                         stroke-width="1.5"></polygon>
-                    <line id="路径" stroke="#ff4400" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                    <line id="路径" stroke="#D32228" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                         x1="2" x2="12" y1="7" y2="12"></line>
-                    <line id="路径" stroke="#ff4400" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                    <line id="路径" stroke="#D32228" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                         x1="12" x2="12" y1="22" y2="12"></line>
-                    <line id="路径" stroke="#ff4400" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                    <line id="路径" stroke="#D32228" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                         x1="22" x2="12" y1="7" y2="12"></line>
-                    <line id="路径" stroke="#ff4400" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                    <line id="路径" stroke="#D32228" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                         x1="17" x2="7" y1="4.5" y2="9.5"></line>
                 </g>
             </g>

@@ -5,7 +5,7 @@ export function CoverDemo() {
   return (
     <div>
       <h1
-        className="text-3xl md:text-6xl 
+        className="text-3xl md:text-6xl
        font-semibold
         max-w-7xl 
         mx-auto 
@@ -13,7 +13,7 @@ export function CoverDemo() {
         relative
          z-20 
          bg-clip-text
-          text-transparent bg-gradient-to-b from-[#ff4400] via-[#ff4400] to-[#ff4400] dark:from-[#ff4400] dark:via-white dark:to-white"
+          text-transparent bg-gradient-to-b from-[#D32228] via-[#D32228] to-[#D32228] dark:from-[#D32228] dark:via-white dark:to-white"
       >
         Fire Buster <br /> <Cover>Fire Protection Services</Cover>
       </h1>

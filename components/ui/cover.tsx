@@ -38,7 +38,7 @@ export const Cover = ({
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       ref={ref}
-      className="relative hover:bg-[#ff4400]  group/cover inline-block dark:bg-neutral-900 bg-neutral-100 px-2 py-2  transition duration-200 rounded-sm"
+      className="relative hover:bg-[#1E3D5C]  group/cover inline-block dark:bg-neutral-900 bg-neutral-100 px-2 py-2  transition duration-200 rounded-sm"
     >
       <AnimatePresence>
         {hovered && (
@@ -72,7 +72,7 @@ export const Cover = ({
                 maxSize={1}
                 particleDensity={500}
                 className="w-full h-full"
-                particleColor="#000"
+                particleColor="#fff"
               />
               <SparklesCore
                 background="transparent"
@@ -80,7 +80,7 @@ export const Cover = ({
                 maxSize={1}
                 particleDensity={500}
                 className="w-full h-full"
-                particleColor="#000"
+                particleColor="#fff"
               />
             </motion.div>
           </motion.div>
@@ -201,9 +201,9 @@ export const Beam = ({
             repeatDelay: hovered ? Math.random() * (2 - 1) + 1 : delay ?? 1,
           }}
         >
-          <stop stopColor="#ff4400" stopOpacity="0" />
-          <stop stopColor="#000" />
-          <stop offset="1" stopColor="#ff4400" stopOpacity="0" />
+          <stop stopColor="#D32228" stopOpacity="0" />
+          <stop stopColor="#D32228" />
+          <stop offset="1" stopColor="#FFF" stopOpacity="0" />
         </motion.linearGradient>
       </defs>
     </motion.svg>

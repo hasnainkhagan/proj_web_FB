@@ -61,11 +61,11 @@ const Meeting = () => {
       >
         <Link href={"/"}>
           <Image
-            src={"/logo/fb.png"}
+            src={"/logo/fb.jpeg"}
             alt="Logo"
             width={10000}
             height={10000}
-            className="w-[3.5em]"
+            className="w-[7em]"
           />
         </Link>
 
